@@ -9,7 +9,7 @@ Test these 3 endpoints of a task management API:
 - `POST /api/tasks` - Create task  
 - `GET /api/tasks` - Get all tasks
 
-**Base URL**: `https://demo-taskmanager.herokuapp.com/api`
+**Base URL**: `http://localhost:3000/api` (local mock server)
 
 ## Requirements
 
@@ -48,9 +48,11 @@ QAChallenge/
 
 ## Quick Start
 1. `npm install`
-2. Set environment: `export API_BASE_URL=https://demo-taskmanager.herokuapp.com/api`
-3. `npm test`
+2. Start the mock server: `npm run server` (in one terminal)
+3. Run tests: `npm test` (in another terminal)
 4. Check `reports/` folder for results
+
+**Note**: The mock server runs on `http://localhost:3000` by default. You can override the API URL by setting the environment variable: `export API_BASE_URL=https://your-api-url.com/api`
 
 ## Evaluation (5 minutes)
 
@@ -59,23 +61,6 @@ QAChallenge/
 npm install
 npm test
 ```
-
-### Code Review (2 min)
-- [ ] Tests run without errors
-- [ ] All 5 scenarios covered
-- [ ] Response time assertions included
-- [ ] Environment variables used
-
-### Report Check (1 min)
-- [ ] HTML report generated
-- [ ] Pass/fail counts visible
-- [ ] Response times shown
-
-### Final Score (1 min)
-- **Excellent (90-100%)**: All tests pass, clean code, good reports
-- **Good (70-89%)**: Most tests pass, reasonable code
-- **Fair (50-69%)**: Some tests pass, basic implementation
-- **Poor (<50%)**: Tests don't run or major issues
 
 ## API Details
 
