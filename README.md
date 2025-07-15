@@ -1,3 +1,29 @@
+# ✅ My Solution Summary (by Meghana Kodali)
+
+This submission includes automated API tests built with **Jest**, **Axios**, and **dotenv** for the provided task management API.
+
+### ✅ Scenarios Implemented:
+- Login with valid credentials
+- Login with invalid credentials
+- Create task successfully
+- Create task with missing title (negative test)
+- Get all tasks
+
+### 🛠 Tech Stack:
+- Node.js
+- Jest
+- Axios
+- dotenv
+- jest-html-reporter
+
+### 📄 Output:
+- Test execution with `npm test`
+- HTML report located at `reports/test-report.html`
+
+---
+
+_(Original challenge instructions below)_
+
 #  QA Automation Challenge
 
 ## Overview
@@ -100,3 +126,5 @@ Authorization: Bearer <token>
 4. Include a brief summary
 
 **Time Limit**: 3 hours maximum 
+
+
